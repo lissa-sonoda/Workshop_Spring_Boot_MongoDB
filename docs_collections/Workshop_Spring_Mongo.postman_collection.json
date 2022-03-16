@@ -198,6 +198,39 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Get Post Full Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/posts/fullsearch?text=mano&minDate=2018-03-20&maxDate=2018-03-22",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"fullsearch"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "mano"
+						},
+						{
+							"key": "minDate",
+							"value": "2018-03-20"
+						},
+						{
+							"key": "maxDate",
+							"value": "2018-03-22"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
