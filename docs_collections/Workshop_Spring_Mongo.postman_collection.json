@@ -134,6 +134,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Get Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/users/6231f3abeb6264765c400b2f/posts",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"6231f3abeb6264765c400b2f",
+						"posts"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
