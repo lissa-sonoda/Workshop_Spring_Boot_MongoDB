@@ -106,6 +106,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Put User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Maria Blue\",\n    \"email\": \"mariab@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/users/6231d31fc4eecf2240cfa0f0",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"6231d31fc4eecf2240cfa0f0"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
