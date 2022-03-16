@@ -136,7 +136,7 @@
 			"response": []
 		},
 		{
-			"name": "Get Posts",
+			"name": "Get User Posts",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -150,6 +150,50 @@
 						"users",
 						"6231f3abeb6264765c400b2f",
 						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Post 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/posts/6231f7f285fae82a73940de9",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"6231f7f285fae82a73940de9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Post By Title",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/posts/titlesearch?text=bom%20dia",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"titlesearch"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "bom%20dia"
+						}
 					]
 				}
 			},
